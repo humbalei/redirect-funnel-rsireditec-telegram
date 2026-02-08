@@ -6,7 +6,7 @@ export default function Home() {
         const userAgent = navigator.userAgent || "";
         const isAndroid = /android/i.test(userAgent);
         const isIOS = /iphone|ipad|ipod/i.test(userAgent);
-        const tgLink = "sharma";
+        const tgLink = "sdsda";
         if (tgLink) {
             if (isAndroid || isIOS) {
                 window.location.href = tgLink;
@@ -22,7 +22,7 @@ export default function Home() {
                 <img src="/profile.jpg" alt="profile" style={{width:120,height:120,borderRadius:"50%",objectFit:"cover"}} />
                 <h1>Rsireditec</h1>
                 <p>🤯🤯 Personal trainer in [loc] and Dubai and 🇫🇷 Paris I'm obsessed with hugs, travel and fittness 💪🌴💗</p>
-                <a href="sharma" style={{display:"inline-block",marginTop:16,padding:"12px 32px",background:"#0088cc",color:"#fff",borderRadius:8,textDecoration:"none",fontWeight:"bold"}}>
+                <a href="sdsda" style={{display:"inline-block",marginTop:16,padding:"12px 32px",background:"#0088cc",color:"#fff",borderRadius:8,textDecoration:"none",fontWeight:"bold"}}>
                     Open Telegram
                 </a>
             </div>
